@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		795F389B23DFB58300134C23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795F389A23DFB58300134C23 /* AppDelegate.swift */; };
-		795F389D23DFB58300134C23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795F389C23DFB58300134C23 /* ViewController.swift */; };
 		795F38A023DFB58300134C23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 795F389E23DFB58300134C23 /* Main.storyboard */; };
 		795F38A223DFB58400134C23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 795F38A123DFB58400134C23 /* Assets.xcassets */; };
 		795F38A523DFB58400134C23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 795F38A323DFB58400134C23 /* LaunchScreen.storyboard */; };
+		795F38AD23DFBD7500134C23 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795F38AC23DFBD7500134C23 /* HomeViewController.swift */; };
+		795F38AF23DFBD8C00134C23 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795F38AE23DFBD8C00134C23 /* AboutViewController.swift */; };
+		795F38B123DFBD9F00134C23 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795F38B023DFBD9F00134C23 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		795F389723DFB58300134C23 /* Chapter05And06Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chapter05And06Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		795F389A23DFB58300134C23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		795F389C23DFB58300134C23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		795F389F23DFB58300134C23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		795F38A123DFB58400134C23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		795F38A423DFB58400134C23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		795F38A623DFB58400134C23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		795F38AC23DFBD7500134C23 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		795F38AE23DFBD8C00134C23 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		795F38B023DFBD9F00134C23 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				795F389A23DFB58300134C23 /* AppDelegate.swift */,
-				795F389C23DFB58300134C23 /* ViewController.swift */,
 				795F389E23DFB58300134C23 /* Main.storyboard */,
 				795F38A123DFB58400134C23 /* Assets.xcassets */,
 				795F38A323DFB58400134C23 /* LaunchScreen.storyboard */,
 				795F38A623DFB58400134C23 /* Info.plist */,
+				795F38AC23DFBD7500134C23 /* HomeViewController.swift */,
+				795F38AE23DFBD8C00134C23 /* AboutViewController.swift */,
+				795F38B023DFBD9F00134C23 /* MainViewController.swift */,
 			);
 			path = Chapter05And06Demo;
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				795F389D23DFB58300134C23 /* ViewController.swift in Sources */,
+				795F38AF23DFBD8C00134C23 /* AboutViewController.swift in Sources */,
 				795F389B23DFB58300134C23 /* AppDelegate.swift in Sources */,
+				795F38AD23DFBD7500134C23 /* HomeViewController.swift in Sources */,
+				795F38B123DFBD9F00134C23 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
